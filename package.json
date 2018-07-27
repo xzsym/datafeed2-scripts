@@ -1,0 +1,11 @@
+{
+  "name": "datafeed2-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/xzsym/datafeed2-scripts.git",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
