@@ -1,0 +1,276 @@
+{
+    "version": "SOCIALMESSAGE",
+    "traceId": "QAfXWl",
+    "messageId": "tjQU+q6B9UIRBLqauF9t0n///psh0VCXbQ==",
+    "objectHash": "euozSImEcv3bH1SDLCzfEsLD47LV2gn3JBr0uLEjhL8BAQ==",
+    "threadId": "vsSBcm0VJuxVSTofdKtj+3///psxrW2ldA==",
+    "ingestionDate": 1532735958888,
+    "schemaVersion": 1,
+    "semVersion": "1.51.0",
+    "isCopyDisabled": false,
+    "text": "AgAAAKcAAAAAAAAAAJPWD4eRm94HUGZwWYMCYS1BrOUg95Q44XZFRtrtajaTsAL91pTbWPDGiU3kaM6j3k7N3Hh+/kXme6/ophznRaP7DgccR9XAUIjFq06PgplIgwMqZ1dYTV+qSuq84FJTBMY4jatFw0vj4vON/I+Jl03S7qoF5JJ9Au/EO8KrIzKB5774Sw+VVafm+VW0QUuX8H+gARz8uC+OP/eLDLHrvcwXRI88Kl4Eqa6ivMPwP1he/f4AVoVNQ8i/jkA3EiXavSbxT3PJ2dKnscAtgyYPkFoPZ4GZpMbSqA2qaJNYFz607EH2x+UOQEeRforNNkFfI3ZkDbUlqdsQ7WAup3dKCSgImWYjg+XbYzoIitiBN5P+CNCGAlyD",
+    "sendingApp": "lc",
+    "chatType": "INSTANT_CHAT",
+    "isPrivate": true,
+    "entities": {
+      "hashtags": [
+        {
+          "indexStart": 0,
+          "indexEnd": 0,
+          "id": "?AQASJJFbG7G8RP/IOhla3KWhAAAAAAAAAAAAAAAAAAAAAEzgZ0DgZhCaxMxif5f+aXv/T93cvQ==",
+          "type": "KEYWORD"
+        },
+        {
+          "indexStart": 0,
+          "indexEnd": 0,
+          "id": "!AgAAAAAAAAAAeIyUGatwKq6mvBEqLZGVg3t5eeulACI950/hf4ixVbpjP+OfxSXdwdF9zSedXr6hthYN7Au8Tb38zS9MVwI=",
+          "type": "KEYWORD"
+        }
+      ],
+      "userMentions": [
+        {
+          "indexStart": 0,
+          "indexEnd": 0,
+          "id": "11476152617541",
+          "type": "USER_FOLLOW"
+        }
+      ]
+    },
+    "suppressed": false,
+    "attributes": {
+      "dist": [
+        11476152614913,
+        11476152617541
+      ]
+    },
+    "encryptedMedia": "AgAAAKcAAAAAAAAAAK49NPMCL1risBDxUMbeD16J8Czc6ghqoVz5VowY326tC46rx3kk9wR1Z95CrZdFcA3PgPPMF71c3wtypDOyOrf/EOk/S6EbfN2IQMInwsTA0A==",
+    "from": {
+      "username": "xiaoyu.zhang@symphony.com",
+      "usernameNormalized": "XIAOYU.ZHANG@SYMPHONY.COM",
+      "firstName": "Xiaoyu",
+      "firstNameNormalized": "XIAOYU",
+      "surname": "Zhang",
+      "surnameNormalized": "ZHANG",
+      "prettyName": "Xiaoyu Zhang",
+      "prettyNameNormalized": "XIAOYU ZHANG",
+      "emailAddress": "xiaoyu.zhang@symphony.com",
+      "emailAddressNormalized": "XIAOYU.ZHANG@SYMPHONY.COM",
+      "workPhone": "5715289024",
+      "company": null,
+      "active": true,
+      "roles": [
+        {
+          "id": "INDIVIDUAL"
+        }
+      ],
+      "industry": [
+        
+      ],
+      "assetClass": [
+        
+      ],
+      "entitlement": [
+        {
+          "name": "imReadEnabled",
+          "value": true
+        },
+        {
+          "name": "canUseInternalAudio",
+          "value": true
+        },
+        {
+          "name": "canUseInternalVideo",
+          "value": true
+        },
+        {
+          "name": "canManageSignalSubscription",
+          "value": false
+        },
+        {
+          "name": "postWriteEnabled",
+          "value": true
+        },
+        {
+          "name": "roomReadEnabled",
+          "value": true
+        },
+        {
+          "name": "canChatWithCepUser",
+          "value": false
+        },
+        {
+          "name": "canJoinMultiLateralRoom",
+          "value": false
+        },
+        {
+          "name": "canProjectInternalScreenShareMobile",
+          "value": false
+        },
+        {
+          "name": "canShareFilesExternally",
+          "value": true
+        },
+        {
+          "name": "canCreatePublicRoom",
+          "value": true
+        },
+        {
+          "name": "canCreatePushedSignals",
+          "value": true
+        },
+        {
+          "name": "mustBeRecorded",
+          "value": false
+        },
+        {
+          "name": "isExternalRoomEnabled",
+          "value": true
+        },
+        {
+          "name": "imWriteEnabled",
+          "value": true
+        },
+        {
+          "name": "roomWriteEnabled",
+          "value": true
+        },
+        {
+          "name": "canUseInternalVideoMobile",
+          "value": false
+        },
+        {
+          "name": "postReadEnabled",
+          "value": true
+        },
+        {
+          "name": "canCreateMultiLateralRoom",
+          "value": false
+        },
+        {
+          "name": "canViewInternalScreenShare",
+          "value": false
+        },
+        {
+          "name": "sendFilesEnabled",
+          "value": true
+        },
+        {
+          "name": "canUseInternalAudioMobile",
+          "value": false
+        },
+        {
+          "name": "canUseCompactMode",
+          "value": false
+        },
+        {
+          "name": "canProjectInternalScreenShare",
+          "value": false
+        },
+        {
+          "name": "canUseFirehose",
+          "value": false
+        },
+        {
+          "name": "isScreenSharingEnabled",
+          "value": false
+        },
+        {
+          "name": "delegatesEnabled",
+          "value": true
+        },
+        {
+          "name": "isAudioVideoEnabled",
+          "value": true
+        },
+        {
+          "name": "canUpdateAvatar",
+          "value": true
+        },
+        {
+          "name": "canViewInternalScreenShareMobile",
+          "value": false
+        },
+        {
+          "name": "isExternalIMEnabled",
+          "value": true
+        }
+      ],
+      "source": "ADMIN",
+      "registrationStatus": "REGISTERED",
+      "screenName": "xiaoyu.zhang@symphony.com",
+      "samlId": "xiaoyu.zhang@symphony.com",
+      "createdBy": "11476152614913",
+      "myCurrentThreadId": "SrZF4aqNltopsphHx8kk4H///psxsFRtdA==",
+      "imageUrl": "https://s3.amazonaws.com/user-pics-demo/small/symphony_small.png",
+      "imageUrlSmall": "https://s3.amazonaws.com/user-pics-demo/creepy/symphony_creepy.png",
+      "authenticationKeys": {
+        
+      },
+      "lastLoginDate": 1532716207207,
+      "verifiedForBadge": false,
+      "userType": "lc",
+      "id": 11476152617541
+    },
+    "platform": "DESKTOP",
+    "clientId": "web-1532712393765-2506",
+    "isBlast": false,
+    "isImported": false,
+    "externalOrigination": false,
+    "encrypted": true,
+    "copyDisabled": false,
+    "clientVersionInfo": "DESKTOP-36.0.0-6541-MacOSX-10.12.6-Chrome-67.0.3396.99",
+    "lastState": "tYCQ2e28iKOMKkpPou9gDX///psxrW2Zbw==",
+    "fromPod": 167,
+    "podDistribution": [
+      167
+    ],
+    "tokenIds": [
+      "gJe+jtuyfcK7f/6VNGDq7yGMxWQX6vRyREHzW9yN9oQ=",
+      "vQPqRdjG57ZB+bUnxug/KuZXfwAs2Hyyqvv2JpRdVcs=",
+      "gSeAEF+I2dAYXIyzJKB3LKZHsQdKms08t08fg1PguSQ=",
+      "NlW/GxON/LoB293MdVf4DmZSP+iGHcB5a4U94fv7vx4=",
+      "L9MhaeBVd3QAyFi5e5xTmjLyyMeUowkYp46/uaUPIrk=",
+      "ndO8iMI0cNMjxWjiE6OVXN3OERAFldrTUEFHiFh6k8U=",
+      "9toLkjFcgvDpqgrKsoNZP0wgc9nlVC81hjPhu7k3YFU=",
+      "75kFZ3QE1DrGOJU1xFquo9vwRbDw9h3Qjn3cRgDBaio=",
+      "nbvbFf8nGwb+/mnGxUlXH0SYTwhbTqfYnb+3ri3B210=",
+      "uaLKU/x77dvh+8WJbi8Cyn/d9yD750cbTx5RWDspF4A=",
+      "1Yr50pWImozavgisfpXzPCoBJcaM/U3kowRQbSTplog=",
+      "sdnKvE5fjerLxA+S+v37fIr1NZnIXPLAZw7+cmySCOg=",
+      "EkE0bKMNCYSYl2s4a7AJm7uuFcm2EP/wKAKYw6lrxgM=",
+      "tM2/Ici33Y5MOJZ7uWLd4j73EBZbARPv0qaWv2HBd1s=",
+      "sEPxgKWV3GRpBrr/9EMi+gFSjKGCP6JhvM/wNvMkHF0=",
+      "0mk7kDbM3uJYLRXbfUPNQhTuo7NpvgyUHFi0/ijVhLo=",
+      "EYYYXrSN/r8ChLwSdarSWNOwO5dAiqq7rHjwsFapcrc=",
+      "HQtwspAqeVWqNoc1fTkzyvhjRSVv3MlrRHPA7G+Orgw=",
+      "WwecTKgVYZWhywqfEGwsK7AfiDF6uOwHRbkys9CT5b0=",
+      "g4T7yX917/pmS9G6eHbRJlYY8zbzg+9nBaAYh4hWJ/8=",
+      "zZZSZA6GGOWJWwssOclzwjRbdgr6oOgmTR6kWyfAiKQ=",
+      "P7Y80WXZZ3OySZrhQytIpyZIX8P2YT5WJ+HFkAoZGbM=",
+      "1RCnqtrTZ3pSaqy6KkG0HZDeiTK22SwCTpDqbeHQqJU=",
+      "gDyLBkVqa3uBZxr8y+k9km2P1sqXY3fr7jgs1LoIfTQ=",
+      "c7oYBf1riw0DYJoMgrDGepjlLlMLybA/o8o9czjoXxE=",
+      "5MoyzNHWNeToHq0Lk3N/jJaxGhxm3IiSjEJnDPNyzpk=",
+      "vWSqpWzWbBGEwa68iO9ed+X/kTXOBgsdYtoUFL9veMw=",
+      "/DzneQsU308ZvFTnBFItotX3VpnFT71/ZPpmqiaL0Vs=",
+      "IeDMQm3lboDVVrKg7dZOSlpAyiP39uUnIK5ye4RgUcw=",
+      "7OMB8HqyD1Kouc99N72qSrUquTAZV+59LjfghAHGnFg=",
+      "GPp3D6GHFIzglf2wj9U00iSTu+iIYnr/VURK8wCr1A0=",
+      "h1eLxDJvZjND7Tr5tUo/bdxmWAut/ynS+gr0dI24WRc=",
+      "g0JTx32cdpGjIb/XkbJytL3EoVR2FDfMpJtVRsQDRQk=",
+      "+F/L/HPsLQaDw4MgKR6OgYdttbs3n7XJHWAenu3iKQM=",
+      "s5Qkq0NMWtGJZdE212Ao7t+QjdFLQe65OC0Yx1LsMfA=",
+      "hDYDwEqdIS+WRsRz8MlFSGNZwkIrYLyUPp6tfcb+dLM=",
+      "jBcvA6DCJpH7r8debRThnJzb6IXQfPrAlOAmskteih4=",
+      "4RsKhvIlEWFnRsdC/+ktcDSj1Ki0uQrU9hqh3EqKyKM=",
+      "CqY3Cen/BrZ9D17qnhLLZrVxoPAtU7Ljp6VKR6t4u3I="
+    ],
+    "encryptedEntities": "AgAAAKcAAAAAAAAAALgyH7nA8+QpoXM5TT/7j7ldWpxWxeiTGr6/XMGhJB/ZSaazRLx8HFFtpYwB3+Mk8tIqinXfGcwaY9N2t/5jsJ9B8S20OiORnCj7/+8SnngQlCG/V71R7LDT1JvD7BXtNI7HNs0D2AondIJTuVAJjdvZalntcuZQc7Iyyxd5+Ljg/4mZnyXH6yVpKM3byQXjQ/JKQSkzjQrfNJh2Yn/CEHoTpsJW/g3CVGjpHsxO9Z0IZsl+AQ8QKjy8zjRvBzSyiK+ySL5GBy9sd+oRaTa91qvWtIBrkz/p/rnERWXR1H6VWRduQO2lafA9O329kf1ksHcUlJX7VqV4mgihGqCcEu3+L9aFJCGjyZovPJTiVBj9kufdqcAVPFw4khqsNRKfejYkrOqlEnpS6gzRjQIZ4IggDR0xOR5VctJKhAEt7GJ8OCweIpLuRT8eiQKJRthvAlq+1ZilnnfbD5yz5h17UaL9rxNBT4xm7+cFczDDm23geZCH",
+    "format": "com.symphony.markdown",
+    "uniqueMessageId": 0,
+    "ignoreDLPWarning": false,
+    "reloadPolicies": false,
+    "enforceExpressionFiltering": true,
+    "isChime": false,
+    "msgFeatures": "7"
+  }
