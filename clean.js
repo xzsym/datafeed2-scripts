@@ -3,6 +3,15 @@ const https = require("https");
 
 const jwt = process.env.JWT;
 const host = process.env.HOST;
+const args = process.argv;
+let doNotDelete = true;
+
+args.slice(2).some((param) => {
+  if(param === '-d') {
+    doNotDelete = false;
+    return true;
+  }
+});
 
 if (!jwt) {
   console.log("Missing JWT token");
@@ -27,8 +36,14 @@ fetch(`https://${host}/datafeed/v2/feeds`, {
   agent
 })
   .then(result => result.json())
-  .then(feeds =>
-    Promise.all(
+  .then(feeds => {
+    console.log('-----', doNotDelete);
+    console.log(feeds);
+    console.log('-----');
+    if (doNotDelete) {
+      return;
+    }
+    return Promise.all(
       feeds.map(({ feedId }) => {
         console.log("FeedId:", feedId);
         return fetch(`https://${host}/datafeed/v2/feeds/${feedId}`, {
@@ -38,6 +53,8 @@ fetch(`https://${host}/datafeed/v2/feeds`, {
         });
       })
     )
+  }
+
   )
   .then(() => {
     console.log("Done with delting");
