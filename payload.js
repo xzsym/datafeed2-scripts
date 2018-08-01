@@ -1,18 +1,4 @@
-function readJsonFileAsync(filepath, callback) {
-  var fs = require("fs");
-  fs.readFile(filepath, "utf-8", function(err, data) {
-    if (err) {
-      callback(err, null);
-    } else {
-      result = JSON.parse(data);
-      if (result) {
-        callback(null, result);
-      } else {
-        callback("parse error", null);
-      }
-    }
-  });
-}
+const { readJsonFileAsync } = require("./util");
 
 let lastUpdate = new Date().getTime() - 3600 * 1000; // last hour
 // duplicate the message 50 times
@@ -24,12 +10,13 @@ readJsonFileAsync("./message.json", (err, messages) => {
     events: []
   };
   const newMessages = [];
-  for (let i = 0, max = 60; i < max; i++) {
+  for (let i = 0, max = 1; i < max; i++) {
     newMessages.push(
       ...messages
-        .map(message => ({
+        .map(({ message }) => ({
           feedId: "string",
           eventId: "string",
+          name: message.version,
           payload: {
             ...message,
             messageId: `${message.messageId}-${i}`,
@@ -42,4 +29,5 @@ readJsonFileAsync("./message.json", (err, messages) => {
   }
   payload.events = newMessages;
   console.log(JSON.stringify(newMessages));
+  resolve(payload);
 });
